@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.currency {
+  font-size: 20px;
+  font-weight: normal;
+  color: grey;
+}
+
+.today-change {
+  color: green;
+  font-size: 15px;
+}
+
+.after-hour {
+  color: grey;
+  font-size: 15px;
+}
+
+.after-hour-change {
+  color: red;
+}

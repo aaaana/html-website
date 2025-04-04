@@ -1,0 +1,27 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+}
+
+.org {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.free {
+  color: grey;
+  font-weight: normal;
+}
+
+.content {
+  width: 450px;
+}
+
+.outline {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.chp {
+  color: blue;
+}

@@ -1,0 +1,45 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.cat1 {
+  display: inline-block;
+  width: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+}
+
+.cat-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.mutual {
+  margin-left: 8px;
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 12px;
+}
+
+.add-button {
+  background-color: rgb(16, 148, 250);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

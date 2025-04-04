@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .requestride {
+        font-size: 30px;
+        font-style: bold;
+        margin-top: 2px;
+        margin-bottom: 5px;
+      }
+
+      input {
+        display: block;
+        border: none;
+        background: hsl(0, 5%, 96%);
+        color: grey;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 400px;
+      }
+
+      .pickup-location {
+        margin-top: 10px;
+      }
+      .destination {
+        margin-top: 5px;
+      }
+      .request-button,
+      .schedule-button {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+
+      .request-button {
+        background: black;
+        color: white;
+        margin-left: 0;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="requestride">Request a ride now</p>
+    <input
+      class="pickup-location"
+      type="text"
+      placeholder="Enter pickup location"
+    />
+    <input class="destination" type="text" placeholder="Enter destination" />
+    <button class="request-button">Request now</button>
+    <button class="schedule-button">schdule for later</button>
+  </body>
+</html>

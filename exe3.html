@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>padding learning</title>
+    <style>
+      .back-button {
+        background: rgb(227, 224, 224);
+        border-color: rgb(165, 162, 162);
+        border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+      }
+
+      .next-button {
+        background: rgb(227, 224, 224);
+        border-color: rgb(165, 162, 162);
+        border-radius: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+      }
+
+      .stretch-button {
+        background: green;
+        border: none;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        transition: padding-left 1s, padding-right 1s, padding-top 1s,
+          padding-bottom 1s;
+      }
+
+      .stretch-button:hover {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 30px;
+        padding-right: 30px;
+      }
+
+      .shadow-button {
+        background: green;
+        border: none;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 5px 5px 8px rgba(169, 41, 41, 0.3);
+      }
+      .shadow-button:active {
+        margin-bottom: 5px;
+        margin-left: 5px;
+        box-shadow: none;
+      }
+      .number-button {
+        background: green;
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        transition: padding 0.15s, margin 0.15s;
+      }
+
+      .number-button:active {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: 3px;
+        margin-right: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="Back-button">Back</button>
+    <a href="1">1</a>
+    <a href="2">2</a>
+    <a href="3">3</a>
+    <a href="4">4</a>
+    <a href="5">5</a>
+    <button class="next-button">Next</button>
+    <p></p>
+
+    <button class="stretch-button">Stretch</button>
+    <p></p>
+
+    <button class="shadow-button">Shadow</button>
+    <p></p>
+
+    <button class="number-button">One</button>
+    <button class="number-button">Two</button>
+    <button class="number-button">Three</button>
+  </body>
+</html>

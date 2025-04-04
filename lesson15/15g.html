@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+      }
+
+      div {
+        font-family: Arial;
+      }
+
+      .container {
+        position: relative;
+        display: inline-block;
+        z-index: 100;
+      }
+
+      .cloth-picture {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      .promotion {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+
+      .bottom-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .add-to-cart-button {
+        background-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-style: solid;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <img class="cloth-picture" src="clothes.png" />
+      <div class="promotion">20% OFF</div>
+      <div class="bottom-overlay">
+        <div class="add-to-cart-button">Add to Cart</div>
+      </div>
+    </div>
+  </body>
+</html>

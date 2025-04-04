@@ -1,0 +1,41 @@
+p {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.new {
+  color: brown;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.macbook {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.supercharged {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.buy {
+  background: blue;
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  font-family: Arial;
+  cursor: pointer;
+}
